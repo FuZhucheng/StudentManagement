@@ -40,7 +40,7 @@ INSERT INTO student(STID,STNAME,STSEX,STAGE,STPHONE) VALUES (123,'fuzhufuzhu',bo
 ```
 ***
 ***
-## 源码传送门：github地址：[J2EE项目从0开始（一）--学生管理系统](https://github.com/FuZhucheng/StudentManagement) 喜欢的可以star或fork啦，谢谢！
+## 源码传送门：github地址：[J2EE项目系列（一）--学生管理系统](https://github.com/FuZhucheng/StudentManagement) 喜欢的可以star或fork啦，谢谢！
 ### 好了，J2EE项目从0开始（一）--学生管理系统。本博客是学习J2EE开始的第一个小项目，这也是J2EE项目从0开始系列的（一），我会把我的理解、思考路线、项目构建一一详细写在这一系列的博客中。欢迎在下面指出错误，共同学习！
 ### 转载请注明：【JackFrost的博客】     
 ### 更多内容，可以访问[JackFrost的博客](http://blog.csdn.net/jack__frost?viewmode=contents)
