@@ -1,4 +1,6 @@
-1.����һ���ܻ�����J2EE��Ŀ��һ��������MVCģʽ��JavaWeb�����ܵ�ѧ������ϵͳ��
-2.�Ķ�ʱ�ɽ���ҵĲ���������Ӧ��������������⡣
-3.ϣ����Ҷ��֧�֣�ϲ���ĸ���star����лл����
-4.����������²۵Ķ���������һ��ѧϰ������
+1.这是一个很基础的J2EE项目，一个运用了MVC模式及JavaWeb三层框架的学生管理系统。
+2.阅读时可结合我的博客来看，应该有助于你的理解。
+3.希望大家多多支持，喜欢的给个star咯，谢谢啦！
+4.有问题和想吐槽的都可以来，一起学习啦！！
+## 下面将会列出博友们反应的问题：
+### [解决Setting property 'source' to 'org.eclipse.jst.jee.server的问题](http://blog.csdn.net/z69183787/article/details/19911935)
