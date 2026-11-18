@@ -51,6 +51,7 @@ public class LoginServlet extends HttpServlet {
 			user.setPassword(userpass);
 			try {
 				if(DAOFactory.getIUserInstance().findLogin(user)){
+				request.getSession().setAttribute("user", user.getUserid());
 					info.add("用户登录成功，欢迎你的到来 "+ user.getName());
 					request.setAttribute("info", info);
 					request.getRequestDispatcher(success_path).forward(request, response);

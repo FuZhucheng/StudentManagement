@@ -33,6 +33,11 @@ public class DataUpdateServlet extends HttpServlet {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 
+		javax.servlet.http.HttpSession session = request.getSession(false);
+		if (session == null || session.getAttribute("user") == null) {
+			response.sendRedirect("login.jsp");
+			return;
+		}
 		studentproxy = DAOStudentFactory.getIStudentInstance();
 
 		String delete_name = request.getParameter("delete_name");
